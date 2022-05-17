@@ -9,4 +9,3 @@ app.include_router(blog_post.router)
 def index():
     return {'message': 'Hello world'}
 
-# In terminal to run app in browser: uvicorn main:app --reload

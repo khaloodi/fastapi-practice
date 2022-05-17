@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6e01b5d-f2f1-4291-80b4-2a61956e7961" name="Changes" comment="refactor app to use a router file">
-      <change afterPath="$PROJECT_DIR$/router/blog_post.py" afterDir="false" />
+    <list default="true" id="b6e01b5d-f2f1-4291-80b4-2a61956e7961" name="Changes" comment="created a post route">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652727653543</updated>
       <workItem from="1652727655000" duration="10738000" />
-      <workItem from="1652746738888" duration="351000" />
+      <workItem from="1652746738888" duration="677000" />
+      <workItem from="1652753194559" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="Initial api">
       <created>1652744364218</created>
@@ -84,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652746859506</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created a post route">
+      <created>1652747184495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652747184495</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial api" />
     <MESSAGE value="refactor app to use a router file" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor app to use a router file" />
+    <MESSAGE value="created a post route" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a post route" />
   </component>
 </project>
