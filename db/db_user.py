@@ -31,9 +31,11 @@ def update_user(db: Session, id: int, request: UserBase):
     db.commit()
     return 'ok'
 
-def delete_user(db: Session, id: int, request: UserBase):
-    user = db.query(DbUser).filter(DbUser.id == id)
-    # user.delete() -- this line worked as well
+# def delete_user(db: Session, id: int, request: UserBase): -- first way
+def delete_user(db: Session, id: int):
+    # user = db.query(DbUser).filter(DbUser.id == id) -- first way
+    user = db.query(DbUser).filter(DbUser.id == id).first()
+    # user.delete() -- this line worked as well, first way
     db.delete(user)
     db.commit()
     return 'deleted'
