@@ -3,7 +3,7 @@ from sqlalchemy.orm.session import Session
 from db.models import DbUser
 from schemas import UserBase
 
-#
+# this file contains the functionality used to write to database
 def create_user(db: Session, request: UserBase):
     new_user = DbUser(
         username = request.username,
@@ -14,3 +14,9 @@ def create_user(db: Session, request: UserBase):
     db.commit()
     db.refresh(new_user)
     return new_user
+
+def get_all_users(db: Session):
+    return db.query(DbUser).all() #simply query the database session, grabbing and returning all users from DbUser table
+
+def get_user(db: Session, id: int):
+    return db.query(DbUser).filter(DbUser.id == id).first()

@@ -1,13 +1,13 @@
 from pydantic import BaseModel
 
 # type of data we receive from the user
-class UserBase(BaseModel):
+class UserBase(BaseModel): #data from user: UserBase
     username: str
     email: str
     password: str
 
 #define a type of data that gets sent back to the user
-class UserDisplay(BaseModel):
+class UserDisplay(BaseModel): #data to user: UserDisplay
     username: str
     email: str
     class Config():

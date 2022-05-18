@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6e01b5d-f2f1-4291-80b4-2a61956e7961" name="Changes" comment="response body now only shows username and email.. hide password on create user from response body">
+    <list default="true" id="b6e01b5d-f2f1-4291-80b4-2a61956e7961" name="Changes" comment="notating files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/db_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/router/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1652727655000" duration="10738000" />
       <workItem from="1652746738888" duration="677000" />
       <workItem from="1652753194559" duration="8628000" />
-      <workItem from="1652803204912" duration="9087000" />
+      <workItem from="1652803204912" duration="10880000" />
     </task>
     <task id="LOCAL-00001" summary="Initial api">
       <created>1652744364218</created>
@@ -197,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652826661084</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="notating files">
+      <created>1652904680682</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652904680682</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +233,8 @@
     <MESSAGE value="created user.py" />
     <MESSAGE value="resolved type in hash file" />
     <MESSAGE value="response body now only shows username and email.. hide password on create user from response body" />
-    <option name="LAST_COMMIT_MESSAGE" value="response body now only shows username and email.. hide password on create user from response body" />
+    <MESSAGE value="notating files" />
+    <option name="LAST_COMMIT_MESSAGE" value="notating files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastapi_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1652824834043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
