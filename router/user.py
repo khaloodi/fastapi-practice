@@ -23,10 +23,13 @@ def get_all_users(db: Session = Depends(get_db)):
     return db_user.get_all_users(db)
 
 # Read one user
-@router.get('/{id}', response_model= UserDisplay)
+@router.get('/{id}', response_model = UserDisplay)
 def get_user(id: int, db: Session = Depends(get_db)):
     return db_user.get_user(db, id)
 
 # Update user
+@router.post('/{id}/update')#createing endpoint to update user with specific id
+def update_user(id: int, request: UserBase, db: Session = Depends(get_db)):
+    return db_user.update_user(db, id, request)
 
 # Delete user
