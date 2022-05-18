@@ -3,7 +3,7 @@ from sqlalchemy.orm.session import Session
 from db.models import DbUser
 from schemas import UserBase
 
-
+#
 def create_user(db: Session, request: UserBase):
     new_user = DbUser(
         username = request.username,
