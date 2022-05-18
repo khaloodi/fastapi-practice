@@ -33,7 +33,8 @@ def update_user(id: int, request: UserBase, db: Session = Depends(get_db)):
     return db_user.update_user(db, id, request)
 
 # Delete user
-@router.post('/{id}/delete')
+# @router.post('/{id}/delete') --first way
+@router.get('/{id}/delete')
 # def delete_user(id: int, request: UserBase, db: Session = Depends((get_db))): --first way
 def delete_user(id: int, db: Session = Depends((get_db))):
     # return db_user.delete_user(db, id, request) -- first way
