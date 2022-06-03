@@ -39,3 +39,6 @@ def update_user(id: int, request: UserBase, db: Session = Depends(get_db)):
 def delete_user(id: int, db: Session = Depends((get_db))):
     # return db_user.delete_user(db, id, request) -- first way
     return db_user.delete_user(db, id)
+
+
+    adfasdf
